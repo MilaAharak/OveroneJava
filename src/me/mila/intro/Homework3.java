@@ -1,6 +1,7 @@
-package me.mila;
+package me.mila.intro;
 
-public class FindMaxFrom3 {
+public class Homework3 {
+
     public static void main(String[] args) {
 
     }

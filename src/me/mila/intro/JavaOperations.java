@@ -1,4 +1,4 @@
-package me.mila;
+package me.mila.intro;
 
 import java.util.Scanner;
 

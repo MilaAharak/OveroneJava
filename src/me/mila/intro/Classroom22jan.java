@@ -1,4 +1,4 @@
-package me.mila;
+package me.mila.intro;
 
 public class Classroom22jan {
     public static void main(String[] args) {
