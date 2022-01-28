@@ -11,13 +11,14 @@ import java.util.Scanner;
 public class Ex02_2NumberComparison {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-
+//bad variable naming
         System.out.print("Input a: ");
         double a = in.nextInt();
 
         System.out.print("Input b: ");
         double b = in.nextInt();
         boolean c = a > b;
+        //reason?
         in.close();
         System.out.println("Result с: " + c);
     }
