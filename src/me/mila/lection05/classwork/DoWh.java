@@ -1,6 +1,6 @@
-package me.mila.lesson05;
+package me.mila.lection05.classwork;
 
-public class ExDoWh {
+public class DoWh {
     public static void main(String[] args) {
         int y = 10;
         do {

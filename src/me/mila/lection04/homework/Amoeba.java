@@ -1,6 +1,6 @@
-package me.mila.lesson04;
+package me.mila.lection04.homework;
 
-public class Ex4Amoeba {
+public class Amoeba {
 
     public static void main(String[] args) {
         int amoebaPerThreeHours = 2;

@@ -1,6 +1,6 @@
-package me.mila.lesson05;
+package me.mila.lection05.classwork;
 
-public class ExUnnown {
+public class Unnown {
     public static void main(String[] args) {
         for (int i = 0; i < 10; i++) {
             if (i == 5) {

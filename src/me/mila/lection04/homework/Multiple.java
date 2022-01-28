@@ -1,6 +1,6 @@
-package me.mila.lesson04;
+package me.mila.lection04.homework;
 
-public class Ex4Multiple {
+public class Multiple {
     public static void main(String[] args) {
         int a = 2;
         int b = 5;

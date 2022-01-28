@@ -1,11 +1,8 @@
-package me.mila.lesson02;
+package me.mila.lection02.homework;
 
-/*Составить программу: вычисления значения функции 4x + 2y.
-Значения x и y вводятся с клавиатуры пользователем.
-Результат сохраняется в переменную и выводится на экран. */
 import java.util.Scanner;
 //ok
-public class Ex02_3FunctionCalculation {
+public class FunctionCalculation {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
@@ -19,7 +16,6 @@ public class Ex02_3FunctionCalculation {
         int b = 2;
         double z = a * x + b * y;
 
-        in.close();
         System.out.println("Result z: " + z);
     }
 }
