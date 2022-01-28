@@ -3,7 +3,7 @@ package me.mila.lesson02;
 /* Пользователь вводит через консоль два числа. Найти их среднее арифметическое. */
 //Delete all the comments! Code should be written in such way that we can undestand it without any additional explanations!
 import java.util.Scanner;
-
+//read about class naming. This (and further) does not look good
 public class Ex02_1AverageCalculation {
 
     public static void main(String[] args) {  //метод
