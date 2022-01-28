@@ -11,7 +11,7 @@ public class Ex02_4OutputStringAndSumNumbers {
 
         System.out.print("Write string: ");
         String str = in.nextLine();
-
+//How could a user undertand what is 'a','b','c'?
         System.out.print("Input a: ");
         int a = in.nextInt();
 
@@ -20,9 +20,9 @@ public class Ex02_4OutputStringAndSumNumbers {
 
         System.out.print("Input c: ");
         double c = in.nextDouble();
-
+//z->sum
         double z = a + b + c;
-
+//reason?
         in.close();
         System.out.println("Строка str: " + str);
         System.out.println("Сумма двух чисел z: " + z);
