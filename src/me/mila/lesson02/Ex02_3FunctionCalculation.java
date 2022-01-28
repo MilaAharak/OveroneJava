@@ -4,7 +4,7 @@ package me.mila.lesson02;
 Значения x и y вводятся с клавиатуры пользователем.
 Результат сохраняется в переменную и выводится на экран. */
 import java.util.Scanner;
-
+//ok
 public class Ex02_3FunctionCalculation {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
