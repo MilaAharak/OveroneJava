@@ -2,7 +2,7 @@ package me.mila.exam;
 //Посчитать сумму четных, нечетных и всех чисел.
 
 import java.util.Scanner;
-
+//+
 public class SumNumbers {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);

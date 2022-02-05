@@ -31,6 +31,7 @@ public class Calculator {
                     answer = num1 * num2;
                     break;
                 case '/':
+                    //division by 0?
                     answer = num1 / num2;
                     break;
                 default:
@@ -45,6 +46,7 @@ public class Calculator {
             if (prover.equals("no"))
                 yesOrNo = false;
         }
+        // simplier  while (yesOrNo);
         while (yesOrNo == true);
     }
 }
