@@ -10,7 +10,6 @@ public class Calculator {
         do {
             double num1;
             double num2;
-            double answer;
             int operation;
             double x = 0;
 
@@ -20,34 +19,35 @@ public class Calculator {
             num2 = reader.nextDouble();
             System.out.println("Input operation (+, -, *, /): ");
             operation = reader.next().charAt(0);
+
+            String message;
             switch (operation) {
                 case '+':
-                    answer = num1 + num2;
+                    message = "Answer:" + (num1 + num2);
                     break;
                 case '-':
-                    answer = num1 - num2;
+                    message = "Answer:" + (num1 - num2);
                     break;
                 case '*':
-                    answer = num1 * num2;
+                    message = "Answer:" + (num1 * num2);
                     break;
                 case '/':
-                    //division by 0?
-                    answer = num1 / num2;
+                    message = num2 == 0 ? "Division by zero!" : "Answer:" + (num1 / num2);
                     break;
                 default:
-                    System.out.println("Error! Input correct operation");
-                    return;
+                    message = "Error! Input correct operation";
             }
-            System.out.println("Answer:" + answer);
+            System.out.println(message);
             System.out.println("Would you like to continue? yes or no");
             String prover = scanner.next();
-            if (prover.equals("yes"))
+            if ("yes".equalsIgnoreCase(prover)) {
                 yesOrNo = true;
-            if (prover.equals("no"))
+            } else if ("no".equalsIgnoreCase(prover)) {
                 yesOrNo = false;
+            }
         }
-        // simplier  while (yesOrNo);
-        while (yesOrNo == true);
+
+        while (yesOrNo);
     }
 }
 

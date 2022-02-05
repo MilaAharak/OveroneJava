@@ -1,4 +1,6 @@
-package me.mila.lection08.classwork.practic;
+package me.mila.lection08.classwork.practice;
+//При помощи класса сканер и пользователя заполнить массив.
+
 
 import java.util.Scanner;
 
@@ -9,15 +11,15 @@ public class ScannerNumbers {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите размер массива ");
         int size = scanner.nextInt();
-        int[] anArrey = new int[size];
+        int[] anArr = new int[size];
 
         for (int i = 0; i < size; i++) {
             System.out.println("Введите значение массива ");
-            anArrey[i] = scanner.nextInt();
+            anArr[i] = scanner.nextInt();
         }
         int j = 0;
         while (j < size) {
-            System.out.println(anArrey[j]);
+            System.out.println(anArr[j]);
             j++;
         }
     }

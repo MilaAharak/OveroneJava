@@ -1,4 +1,5 @@
-package me.mila.lection08.classwork.practic;
+package me.mila.lection08.classwork.practice;
+//Создать массив из 3 элементов. Вывести сумму.
 
 public class SumNumbers {
     public static void main(String[] args) {
